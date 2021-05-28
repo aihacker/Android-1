@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/xingkongtwo"
+    tools:context=".SecondActivity2">
+
+    <TextView
+        android:id="@+id/textView_getname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示获取到的用户名:"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:id="@+id/textView_getbirth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示获取到的生日日期:"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_margin="5dp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_gravity="center"
+        android:layout_margin="20dp" />
+
+    <TextView
+        android:id="@+id/textView_star"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示获取到的星座特点:"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_margin="5dp"/>
+
+</LinearLayout>
